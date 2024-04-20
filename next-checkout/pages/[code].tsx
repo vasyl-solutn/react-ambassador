@@ -6,7 +6,7 @@ import constants from "../constants";
 
 declare var Stripe;
 
-export default function Home() {
+export default function Code() {
     const router = useRouter();
     const {code} = router.query;
     const [user, setUser] = useState(null);
